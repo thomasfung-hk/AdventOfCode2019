@@ -44,8 +44,8 @@ def main():
     final_state = gravityProgram(input_copy)
     print(f"After the program halts, the 0 position holds the value {final_state[0]}.")
     (noun, verb) = nounVerbFinder(puzzle_input, 19690720)
-    print(f"The noun is {noun} and the verb is {verb} that cause the program to\
- produce the output 19690720. The answer is {100 * noun + verb}.")
+    print(f"""The noun is {noun} and the verb is {verb} that cause the program to
+              produce the output 19690720. The answer is {100 * noun + verb}.""")
 
 if __name__ == '__main__':
     main()
