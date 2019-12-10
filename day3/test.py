@@ -1,7 +1,7 @@
 import unittest
 import crossedwires
 
-class PartThreeTest(unittest.TestCase):
+class DayThreeTest(unittest.TestCase):
     def test_parse(self):
         filename = "input.txt"
         (parsed_text_1, parsed_text_2) = crossedwires.parseInput(filename)

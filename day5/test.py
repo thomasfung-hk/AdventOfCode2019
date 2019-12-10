@@ -1,7 +1,7 @@
 import unittest
 import intcode
 
-class PartFiveTest(unittest.TestCase):
+class DayFiveTest(unittest.TestCase):
     def test_intcode_1(self):
         program = [1002,4,3,4,33]
         puzzle_input, output = intcode.intCodeAdvanced(program)

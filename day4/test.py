@@ -1,7 +1,7 @@
 import unittest
 import securecontainer
 
-class PartFourTest(unittest.TestCase):
+class DayFourTest(unittest.TestCase):
     def test_neverdecrease(self):
         self.assertTrue(securecontainer.increasingNumber('111111'))
         self.assertFalse(securecontainer.increasingNumber('223450'))

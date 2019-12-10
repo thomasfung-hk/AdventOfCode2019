@@ -1,7 +1,7 @@
 import unittest
 import gravityassist
 
-class PartTwoTest(unittest.TestCase):
+class DayTwoTest(unittest.TestCase):
     def test_parse(self):
         filename = "input.txt"
         parsed_text = gravityassist.parseInput(filename)

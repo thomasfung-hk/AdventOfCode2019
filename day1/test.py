@@ -1,7 +1,7 @@
 import unittest
 import rocketequation
 
-class PartOneTest(unittest.TestCase):
+class DayOneTest(unittest.TestCase):
     def test_parse(self):
         filename = "input.txt"
         parsed_text = rocketequation.parseInput(filename)
